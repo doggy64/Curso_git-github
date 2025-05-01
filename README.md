@@ -25,5 +25,27 @@
 >Una rama es un snapshot de la division del codigo, en otras palabras son apuntadores que apuntan a un commit.
 ![ramas](/img/image-1.png)
 
+</details>
 
 ---
+
+# Comandos utilizados
+| Comando                     | Descripción                                                                |
+| -------------------------   | -----------------------------------------------------------------          |
+| **git init nombre_proyecto**    | Inicia un nuevo repositorio Git.                                           |
+| **git status**                | Muestra el estado actual del proyecto.                                     |
+| **git add**                   | Agrega todos los archivos al repositorio de Git.                           |
+| **git restore --staged**      | Evita que los cambios en el área de preparación se incluyan en el commit.  |
+| **git commit**                | Genera un registro del cambio realizado.                                   |
+| **git log**                   | Muestra un historial de los commits realizados.                            |
+| **git log --online**                   | Muestra un historial de los commits realizados pero la parte que se se hizo commit sin tanto detalle.                            |
+| **git commit -amend-m**       | Permite editar el mensaje del commit.                                      |
+| **git branch**               | Nos muestra todas las ramas del repositorio actual.                        |
+| **git branch rama_nueva**  | Crear una rama este tiene diferentes complementos.                         |
+| **git switch rama_nueva**  | Permite cambiar de una rama a otra en nuestro repositorio local.            |
+| **git switch -c rama_nueva**  | Permite crear y cambiar de una rama a otra en nuestro repositorio local.            |
+| **git checkout rama_nueva**| Cambia la ubicación actual al "nombre_rama" con todos los cambios.         |
+| **git branch -a**            | Permite ver a las ramas locales y remotas.                                 |
+| **git branch -d rama_nueva**            |Elimina una rama local, solo si ya ha sido fusionada (merged) con tu rama actual o con la rama main.  |
+| **git branch -D rama_nueva**            | Es una eliminación forzada.                  |
+
