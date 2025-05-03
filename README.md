@@ -22,10 +22,27 @@
 ## Que es un commit
 >Son como un punto de guardado como en un videojuego.
 ## Que es una rama
+
 >Una rama es un snapshot de la division del codigo, en otras palabras son apuntadores que apuntan a un commit.
+
 ![ramas](/img/image-1.png)
 
 </details>
+
+<details><summary> <b> Clase 3 </b></summary>
+
+## Fusionar ramas
+>La fusion de dos ramas es cuando integramos los cambios de una rama a otra.
+
+## Porque eliminar una rama?
+>Porque es una buena practica ademas se mantiene limpio el espacio de trabajo
+
+## Conflictos en git
+>Un conflicto en es cuando git no sabe que cambio debe prevalecer posterior a un merge, lo que requiere que lo resolvamos manualmente.
+
+![conflicto](/img/image2.png)
+</details>
+
 
 ---
 
@@ -48,4 +65,5 @@
 | **git branch -a**            | Permite ver a las ramas locales y remotas.                                 |
 | **git branch -d rama_nueva**            |Elimina una rama local, solo si ya ha sido fusionada (merged) con tu rama actual o con la rama main.  |
 | **git branch -D rama_nueva**            | Es una eliminación forzada.                  |
-
+| **git merge**            | Fusiona los cambios de una rama con otra rama.                  |
+| **git diff**            | Sirve para visualizar las modificaciones en los archivos|
