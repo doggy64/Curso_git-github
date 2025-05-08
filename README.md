@@ -2,7 +2,7 @@
 
 ---
 
-<details><summary> <b>Conceptos de Git </b></summary>
+<details><summary> <b>Conceptos de Git y Github</b></summary>
 
 ## Que es git
 
@@ -34,11 +34,7 @@
 
 >Respuesta corta no, git es un controlador de versione encambio github es servicio de alojamiento en la nube de código fuente basado en el sistema de control de versiones(git).
 
-![git_vs_github](image.png)
-
-</details>
-
-<details><summary> <b> Clase 3 </b></summary>
+![git_vs_github](/img/image3.png)
 
 ## Fusionar ramas
 >La fusion de dos ramas es cuando integramos los cambios de una rama a otra.
@@ -66,8 +62,22 @@
 * Vincular el repositorio local con el repositorio remoto en GitHub
 * Sicronizar nuestros cambios del repositorio local con el repositorio remoto
 
-</details>
+## Push, pull y pull request
 
+### ¿Que es git push?
+
+>Es un comando que nos permite subir los cambios de nuestro repositorio local a nuestro repositorio remoto. Este se asocia a solo una rama.
+
+### ¿Que es git pull?
+>Es un comando que nos permite descargar los cambios de nuestro repositorio remoto a nuestro repositorio local.
+
+### Malas prácticas del git push
+>El git push -f o git force push, es una mala práctica porque puede sobreescribir los cambios de otros usuarios en el repositorio remoto.
+
+### Como crear un pull request o PR
+>Un pull request es una solicitud de revision y fusión de los cambios de una rama en otra rama que son enviados al repositorio original. Un pull request se puede crear desde la plataforma de GitHub o desde la linea de comandos de git. Se puede hacer pull request con commits pequeños y poder visualizarlos, esto cuenta como una buena práctica.
+
+</details>
 
 ---
 
