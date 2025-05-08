@@ -2,7 +2,8 @@
 
 ---
 
-<details><summary> <b> Clase 1-2 </b></summary>
+<details><summary> <b>Conceptos de Git </b></summary>
+
 ## Que es git
 
 >Es un controlador de versiones este es un sistema que registra cada
@@ -19,13 +20,21 @@
 
 ## Que es el head
 >El head es basicamente decirte estoy aqui.
+
 ## Que es un commit
 >Son como un punto de guardado como en un videojuego.
+
 ## Que es una rama
 
 >Una rama es un snapshot de la division del codigo, en otras palabras son apuntadores que apuntan a un commit.
 
 ![ramas](/img/image-1.png)
+
+## ¿Git y GitHub son lo mismo?
+
+>Respuesta corta no, git es un controlador de versione encambio github es servicio de alojamiento en la nube de código fuente basado en el sistema de control de versiones(git).
+
+![git_vs_github](image.png)
 
 </details>
 
@@ -41,6 +50,22 @@
 >Un conflicto en es cuando git no sabe que cambio debe prevalecer posterior a un merge, lo que requiere que lo resolvamos manualmente.
 
 ![conflicto](/img/image2.png)
+
+## Dentro de github podemos encontrar lo siguiente
+
+* Ver mi perfil y mis repositorio: Podemos ver nuestra información de nuestro perfil, repositorios, organizaciones a las que pertenecemos y ver nuestras contribuciones.
+* Buscar perfiles, repositorios , etc.: Podemos ver nuestros repositorios y repositorios de otras personas.
+* Proyectos: Nos permite ver, crear y gestionar proyectos.
+* Organizaciones: Nos permite crear repositorios privados y poder agregar personas a este.
+* Repositorios y codigo: Podemos ver archivos de los repositorios publicos y personales, se puede realizar cambios en el código.
+* Acciones en los repositorios: Las actions nos permiten automatizar las tareas en nuetro repositorio.
+
+### Para usar un repositorio remoto debemos hacer lo siguiente
+* Crear una cuenta en GitHub
+* Crear un repositorio local en nuestro ordenador.
+* Vincular el repositorio local con el repositorio remoto en GitHub
+* Sicronizar nuestros cambios del repositorio local con el repositorio remoto
+
 </details>
 
 
