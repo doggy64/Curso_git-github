@@ -139,6 +139,36 @@
 ## ¿Como elegir un buen nombre para mi rama?
 >Para elegir un buen nombre de la rama, es recomendable usar el nombre de la accion que se va a realizar en la rama.
 
+## ¿Cuándo deshacer cambios?
+
+>Cuando el proyecto deja de funcionar.
+>Para recuperar código eliminado.
+>Para recuperar archivos eliminados.
+
+## ¿Qué comando debo usar para deshacer un cambio que hice en un archivo?
+
+>Esto depende de si desea deshacer el cambio en todo el commit o solo en el archivo.
+>Si desea deshacer el cambio en todo el commit, use git reset soft <commit_id>.
+>Si desea deshacer el cambio solo en el archivo, use git checkout -- <commit_id> <archivo> && git checkout HEAD -- <archivo>.
+
+## Comandos destructivos y no destructivos
+
+## Comandos destructivos
+
+>Estos afectan el historial de commits realizados.
+
+>Entre estos tenemos:
+
+- **git rebase**
+- **git commit amend**
+- **git reset**
+- **git push --force**
+
+## Comandos no destructivos
+>Trabajan en base al historial sin afectarlo.
+>Entre estos tenemos:
+
+- **git checkout**
 
 </details>
 
