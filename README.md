@@ -194,7 +194,7 @@
 ## ¿Qué son los Alias?
 >Son atajos que permiten personalizar los comandos de Git.
 
-![alias](image.png)
+![ejemplo de alias](img/image7.png)
 
 ## Trucos en git
 **Guarda tus cambios temporalmente**
