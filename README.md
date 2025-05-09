@@ -106,6 +106,40 @@
 * Show: Son los cambios que deben ser revisados po CI antes de fusionarse con la rama principal.
 * Ask : Son los cambios que requieren de una PR, antes de ser fusionados.
 
+## Buenas prácticas
+
+## Commits
+## ¿Cada cuánto hacer un commit?
+>Los commits deben ser pequeños agrupando pequeñas mejoras o acciones.
+
+## ¿Como escribir un buen commit?
+>Se debe usar un verbo imperativo.Por ejemplo: "Add", "Feat", etc.
+>No se debe usar puntos suspensivos o punto final.
+>El commit debe tener como máximo 50 caracteres.
+>El commit debe ser claro y especifico.
+>Se debe usar un prefijo para los commits y que estos sean más semánticos.
+
+## Ejemplo
+
+![ejemplo de un buen commit](img/image6.png)
+
+## Prefijos para los commits
+
+* **feat**: Nueva característica para el usuario.
+* **fix** : Es cuando se arregla un bug que afecta al usuario..
+* **perf**: Es para cambios que mejoran el rendimiento del sitio. 
+* **build**: Es para cambios en el sistema de build, tareas de despliegue o instalación.
+* **ci** : Es para cambios en la integración continua.
+* **docs** : Es para cambios en la documentación.
+* **refactor**: Es para la refactorización del código como cambios de nombre de variables o funciones.
+* **style** : Es para cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
+* **test** : Este añade tests o refactoriza uno existente.
+  
+## Ramas
+## ¿Como elegir un buen nombre para mi rama?
+>Para elegir un buen nombre de la rama, es recomendable usar el nombre de la accion que se va a realizar en la rama.
+
+
 </details>
 
 ---
@@ -131,3 +165,18 @@
 | **git branch -D rama_nueva**            | Es una eliminación forzada.                  |
 | **git merge**            | Fusiona los cambios de una rama con otra rama.                  |
 | **git diff**            | Sirve para visualizar las modificaciones en los archivos|
+| **git remote add alias URL-repositorio-remoto**| Enlaza nuestro repositorio local con nuestro repositorio remoto.|
+| **git push alias  main**     | Sicroniza nuestros cambios de mi repositorio local con mi repositorio remoto.|
+| **git clone url-repositorio-remoto**| Sirve para clonar un repositorio existente en un nuevo directorio local.|
+| **git remote -v**             | Muestra que nuestro repositorio esta enlazado con el repositorio remoto.   |
+| **git push origin nombre_rama**| Creamos una rama remota.				                   |
+| **git fetch**                 | Actualiza la información entre mi repositorio remoto y local.	           |
+| **git remote prune origin**   | Elimina las ramas del repositorio local que ya no se utilizan.	           |
+| **git merge**                | Combina los cambios de dos o mas ramas en una sola rama.		   |
+| **git push -u**               | Envia los commits locales al repositorio remote y establece la rama como referencia. |
+| **git push -d alias rama-remota** | Borrar una rama remota.                                            |
+| **git push -f**               | Fuerza un push.                                                            |
+| **git push alias rama1 rama2 ramaN** | Enviar los commits locales de una o varias ramas específicas a un repositorio remoto.|
+| **git pull**               | Envia los commits locales al repositorio remoto y establece a la rama como referencia. |
+| **git pull --all**            | Descarga todos los cambios de todas las ramas remotas y  las fusiona con las del repositorio local. |
+| **git flow**                  | Inicializa un repositorio Git con el flujo de trabajo Git Flow.            |
