@@ -210,3 +210,6 @@
 | **git pull**               | Envia los commits locales al repositorio remoto y establece a la rama como referencia. |
 | **git pull --all**            | Descarga todos los cambios de todas las ramas remotas y  las fusiona con las del repositorio local. |
 | **git flow**                  | Inicializa un repositorio Git con el flujo de trabajo Git Flow.            |
+| **git reset --soft**          | Descarta todos los commits posteriores al especificado, pero mantiene los cambios en los archivos. |
+| **git reset --hard**          | Descarta todos los cambios desde el commit especificado, esto incluye archivos modificados y commits posteriores.|
+| **git revert HEAD~< n >**       | Deshace los cambios realizados en los últimos <n> commits desde el HEAD.   |
