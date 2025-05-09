@@ -77,6 +77,19 @@
 ### Como crear un pull request o PR
 >Un pull request es una solicitud de revision y fusión de los cambios de una rama en otra rama que son enviados al repositorio original. Un pull request se puede crear desde la plataforma de GitHub o desde la linea de comandos de git. Se puede hacer pull request con commits pequeños y poder visualizarlos, esto cuenta como una buena práctica.
 
+
+## Gitglow
+>Es un flujo de trabajo ramificado que utiliza varias ramas.
+
+![gitflow](/img/images4.png)
+
+* main o master: Es la rama principal que contiene el código de producción.
+* develop: Esta rama de desarrollo donde se realizan los cambios principales.
+* features: Estos son caracteristicas nuevas del proyecto.
+* release: Estos son cambios de último momento.
+* Hotflix: Son parches o arreglar bugs pequeños que son parte del main.
+
+
 </details>
 
 ---
