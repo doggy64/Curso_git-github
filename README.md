@@ -89,6 +89,22 @@
 * release: Estos son cambios de último momento.
 * Hotflix: Son parches o arreglar bugs pequeños que son parte del main.
 
+## Github flow
+>Es un flujo de trabajo de git mas simple, porque solo utiliza dos ramas.
+
+![gitflow](/img/images5.png)
+
+>Las ramas son las siguientes:
+* main: Es la rama principal que contiene el código estable.
+* feature: Esta rama es para desarrollar nuevas caracteristicas.
+
+### Trunk Based Development
+>Es una estrategia donde se prioriza hacer commits desde la rama principal, en caso de necesitar ramas se hacen PR pequeños para integrarlos lo antes posible.
+
+### Ship/ Show / Ask
+* Ship: Son los cambios listos para fusionarse con la rama principal.
+* Show: Son los cambios que deben ser revisados po CI antes de fusionarse con la rama principal.
+* Ask : Son los cambios que requieren de una PR, antes de ser fusionados.
 
 </details>
 
